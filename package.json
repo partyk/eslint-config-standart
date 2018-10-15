@@ -1,5 +1,5 @@
 {
-  "name": "@mafra/standard",
+  "name": "@mafra/eslint-config-standard",
   "version": "1.0.0",
   "description": "Default configure ESLint for Mafra projects",
   "main": "index.js",
