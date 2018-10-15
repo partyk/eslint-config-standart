@@ -1,0 +1,28 @@
+{
+  "name": "@mafra/standard",
+  "version": "1.0.0",
+  "description": "Default configure ESLint for Mafra projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partyk/mafra-standard.git"
+  },
+  "keywords": [
+    "ESlint"
+  ],
+  "author": "Bohdan Partyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/partyk/mafra-standard/issues"
+  },
+  "homepage": "https://github.com/partyk/mafra-standard#readme",
+  "dependencies": {
+    "standard": "^12.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
