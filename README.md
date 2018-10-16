@@ -19,3 +19,4 @@ Add this to your `.eslintrc` file:
 {
   "extends": "@mafra/eslint-config-standard"
 }
+```
