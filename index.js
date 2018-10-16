@@ -17,6 +17,7 @@ module.exports = {
         "object-curly-spacing": [2, "never", { "objectsInObjects": true }],
         "eol-last": 0,
         "spaced-comment": 1,
+        "no-new": 0,
         "space-before-function-paren": [2, {
             "anonymous": "always",
             "named": "never",
