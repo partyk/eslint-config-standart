@@ -19,9 +19,6 @@
     "url": "https://github.com/partyk/mafra-standard/issues"
   },
   "homepage": "https://github.com/partyk/mafra-standard#readme",
-  "publishConfig":{
-    "registry":"https://verdaccio.mafra.cz"
-  },
   "dependencies": {
     "standard": "^12.0.1"
   },
