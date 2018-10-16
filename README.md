@@ -4,7 +4,9 @@ An ESLint [Shareable Config](https://eslint.org/docs/developer-guide/shareable-c
 
 ## Install
 
- npm install --save-dev @mafra/eslint-config-standard
+```
+ npm install --save-dev @mafra/eslint-config-standard  --reg https://verdaccio.mafra.cz
+```
  
 ## Usage
 
@@ -20,3 +22,16 @@ Add this to your `.eslintrc` file:
   "extends": "@mafra/eslint-config-standard"
 }
 ```
+
+## How to integrate to Mafra project
+
+1. Add to file .npmrc
+    ```
+    ; Set a Mafra registry for a scoped package
+    @mafra:registry=https://verdaccio.mafra.cz
+    ```
+    
+2. Install package 
+    ```
+    npm install --save @mafra/clever-admin
+    ```
