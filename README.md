@@ -4,7 +4,7 @@ An ESLint [Shareable Config](https://eslint.org/docs/developer-guide/shareable-c
 
 ## Install
 
- npm install --save-dev @mafra/eslint-config-standard
+ npm install --save-dev https://github.com/partyk/mafra-standard
  
 ## Usage
 
