@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/partyk/mafra-standard.git"
+    "url": "git+https://gitlab.mafra.cz/bohdan.partyk/eslint-config-standard.git"
   },
   "keywords": [
     "ESlint"
@@ -16,9 +16,12 @@
   "author": "Bohdan Partyk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/partyk/mafra-standard/issues"
+    "url": "https://gitlab.mafra.cz/bohdan.partyk/eslint-config-standard/issues"
   },
-  "homepage": "https://github.com/partyk/mafra-standard#readme",
+  "homepage": "https://gitlab.mafra.cz/bohdan.partyk/eslint-config-standard#readme",
+  "publishConfig":{
+    "registry":"https://verdaccio.mafra.cz"
+  },
   "dependencies": {
     "standard": "^12.0.1"
   },
