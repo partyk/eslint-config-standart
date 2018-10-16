@@ -1,5 +1,15 @@
 module.exports = {
     "extends": "standard",
+    "env": {
+        "browser": true,
+        "jquery": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+        }
+    },
     "rules": {
         "indent": [2, 4, { "SwitchCase": 1 }],
         "semi": [2, "always", { "omitLastInOneLineBlock": true }],
