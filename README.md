@@ -33,5 +33,5 @@ Add this to your `.eslintrc` file:
     
 2. Install package 
     ```
-    npm install --save @mafra/clever-admin
+    npm install --save @mafra/eslint-config-standard
     ```
