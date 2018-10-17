@@ -1,6 +1,6 @@
 {
   "name": "@mafra/eslint-config-standard",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Default configure ESLint for Mafra projects",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,8 @@
     "url": "https://gitlab.mafra.cz/bohdan.partyk/eslint-config-standard/issues"
   },
   "homepage": "https://gitlab.mafra.cz/bohdan.partyk/eslint-config-standard#readme",
-  "publishConfig":{
-    "registry":"https://verdaccio.mafra.cz"
+  "publishConfig": {
+    "registry": "https://verdaccio.mafra.cz"
   },
   "dependencies": {
     "standard": "^12.0.1"
