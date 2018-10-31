@@ -6,11 +6,10 @@ module.exports = {
         "es6": true
     },
     "parserOptions": {
-        "ecmaVersion": 7,
+        "ecmaVersion": 8,
         "sourceType": "module",
         "ecmaFeatures": {
-          "spread": true,
-          "experimentalObjectRestSpread": true
+          "spread": true
         }
     },
     "rules": {
