@@ -5,9 +5,11 @@ module.exports = {
         "jquery": true,
         "es6": true
     },
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaVersion": 8,
         "sourceType": "module",
+        "allowImportExportEverywhere": true
         "ecmaFeatures": {
           "spread": true
         }
