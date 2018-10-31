@@ -9,7 +9,7 @@ module.exports = {
     "parserOptions": {
         "ecmaVersion": 8,
         "sourceType": "module",
-        "allowImportExportEverywhere": true
+        "allowImportExportEverywhere": true,
         "ecmaFeatures": {
           "spread": true
         }
