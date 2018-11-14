@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': ['standard'],
+  'extends': ['standard', 'standard-jsx'],
   'env': {
     'browser': true,
     'jquery': true,
