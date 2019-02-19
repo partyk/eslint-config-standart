@@ -1,6 +1,7 @@
 # @partyk/eslint-config-standard
 
 An ESLint [Shareable Config](https://eslint.org/docs/developer-guide/shareable-configs) for [JavaScript Standard Style](http://standardjs.com/). This config is extending of [eslint-config-standard](https://github.com/standard/eslint-config-standard) and is JavaScript Standard Style for projects.
+This config has support [Vue.js](https://vuejs.org/)
 
 ## Install
 
