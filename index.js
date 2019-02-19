@@ -1,8 +1,5 @@
 module.exports = {
-  'extends': ['plugin:vue/recommended', 'standard', 'standard-jsx'],
-  'plugins': [
-    'vue'
-  ],
+  'extends': ['standard', 'standard-jsx'],
   'env': {
     'browser': true,
     'jquery': true,
@@ -10,7 +7,7 @@ module.exports = {
   },
   'parser': 'babel-eslint',
   'parserOptions': {
-    'ecmaVersion': 0,
+    'ecmaVersion': 9,
     'sourceType': 'module',
     'allowImportExportEverywhere': true,
     'ecmaFeatures': {
@@ -29,13 +26,6 @@ module.exports = {
       'anonymous': 'always',
       'named': 'never',
       'asyncArrow': 'always'
-    }],
-    'vue/html-indent': [2, 4, {
-      'attribute': 1,
-      'baseIndent': 1,
-      'closeBracket': 0,
-      'alignAttributesVertically': true,
-      'ignores': []
     }]
   }
 }
