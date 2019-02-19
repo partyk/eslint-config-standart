@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': ['standard', 'standard-jsx', 'plugin:vue/recommended'],
+  'extends': ['plugin:vue/recommended', 'standard', 'standard-jsx'],
   'plugins': [
     'vue'
   ],
