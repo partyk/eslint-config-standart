@@ -15,6 +15,8 @@ You can learn more about
 [Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs) on the
 official ESLint website.
 
+Support JSX
+
 Add this to your `.eslintrc` file:
 
 ```
