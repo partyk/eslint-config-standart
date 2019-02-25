@@ -21,6 +21,6 @@ Add this to your `.eslintrc` file:
 
 ```
 {
-  "extends": "@partyk/eslint-config-standard"
+  "extends": "partyk-eslint-config-standard"
 }
 ```
