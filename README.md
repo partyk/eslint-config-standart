@@ -5,7 +5,7 @@ An ESLint [Shareable Config](https://eslint.org/docs/developer-guide/shareable-c
 ## Install
 
 ```
- npm install --save-dev @partyk/eslint-config-standard
+ npm install --save-dev partyk-eslint-config-standard
 ```
  
 ## Usage

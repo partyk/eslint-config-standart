@@ -1,5 +1,5 @@
 {
-  "name": "@partyk/eslint-config-standard",
+  "name": "partyk-eslint-config-standard",
   "version": "1.6.3",
   "description": "Default configure ESLint for projects",
   "main": "index.js",
