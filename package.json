@@ -1,14 +1,14 @@
 {
-  "name": "@mafra/eslint-config-standard",
+  "name": "@partyk/eslint-config-standard",
   "version": "1.6.3",
-  "description": "Default configure ESLint for Mafra projects",
+  "description": "Default configure ESLint for projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.mafra.cz/bohdan.partyk/eslint-config-standard.git"
+    "url": "git+https://github.com/partyk/eslint-config-standart"
   },
   "keywords": [
     "ESlint"
@@ -16,12 +16,9 @@
   "author": "Bohdan Partyk",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.mafra.cz/bohdan.partyk/eslint-config-standard/issues"
+    "url": "https://github.com/partyk/eslint-config-standartissues"
   },
-  "homepage": "https://gitlab.mafra.cz/bohdan.partyk/eslint-config-standard#readme",
-  "publishConfig": {
-    "registry": "https://verdaccio.mafra.cz"
-  },
+  "homepage": "https://github.com/partyk/eslint-config-standart#readme",
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint-config-standard": "^12.0.0",
