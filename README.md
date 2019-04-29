@@ -5,7 +5,7 @@ An ESLint [Shareable Config](https://eslint.org/docs/developer-guide/shareable-c
 ## Install
 
 ```
- npm install --save-dev partyk-eslint-config-standard
+ npm install --save-dev eslint-config-standart-partyk
 ```
  
 ## Usage
@@ -21,6 +21,6 @@ Add this to your `.eslintrc` file:
 
 ```
 {
-  "extends": "partyk-eslint-config-standard"
+  "extends": "eslint-config-standart-partyk"
 }
 ```
