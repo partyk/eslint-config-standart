@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-standart-partyk",
-  "version": "1.6.5",
+  "version": "2.0.0-beta.0",
   "description": "Default configure ESLint for projects",
   "main": "index.js",
   "scripts": {
