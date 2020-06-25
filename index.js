@@ -26,6 +26,14 @@ module.exports = {
       'anonymous': 'always',
       'named': 'never',
       'asyncArrow': 'always'
+    }],
+    // Below rules are set as warning only a beta mode. In full version will rules set as error.
+    "quote-props": [1, "consistent"],
+    "dot-notation": 1,
+    "lines-between-class-members": [1, "always", {"exceptAfterSingleLine": true }],
+    "prefer-const": [1, {
+      "destructuring": "any",
+      "ignoreReadBeforeAssign": false
     }]
   }
 }
