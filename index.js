@@ -15,25 +15,46 @@ module.exports = {
     }
   },
   'rules': {
-    'indent': [2, 4, {'SwitchCase': 1}],
-    'semi': [2, 'always', {'omitLastInOneLineBlock': true}],
-    'quotes': [2, 'single', {'allowTemplateLiterals': true}],
-    'object-curly-spacing': [2, 'never', {'objectsInObjects': true}],
-    'eol-last': 0,
-    'spaced-comment': 1,
-    'no-new': 0,
-    'space-before-function-paren': [2, {
-      'anonymous': 'always',
-      'named': 'never',
-      'asyncArrow': 'always'
-    }],
-    // Below rules are set as warning only a beta mode. In full version will rules set as error.
-    "quote-props": [1, "consistent"],
-    "dot-notation": 1,
-    "lines-between-class-members": [1, "always", {"exceptAfterSingleLine": true }],
-    "prefer-const": [1, {
-      "destructuring": "any",
-      "ignoreReadBeforeAssign": false
-    }]
+      'comma-dangle': [
+          1,
+          {
+              'arrays': 'always-multiline',
+              'objects': 'always-multiline',
+              'imports': 'always-multiline',
+              'exports': 'always-multiline',
+              'functions': 'always-multiline'
+          }
+      ],
+      'operator-linebreak': [1, 'before'],
+      'eol-last': 1,
+      'spaced-comment': 1,
+      'no-new': 1,
+      'no-multiple-empty-lines': [
+          1,
+          {
+              'max': 2,
+              'maxEOF': 0,
+              'maxBOF': 0
+          }
+      ],
+      'space-before-function-paren': [1,
+          {
+              'anonymous': 'always',
+              'named': 'never',
+              'asyncArrow': 'always'
+          }
+      ],
+      'no-unneeded-ternary': 2,
+      'indent': [1, 4, {'SwitchCase': 1}],
+      'semi': [2, 'always', {'omitLastInOneLineBlock': true}],
+      'quotes': [1, 'single', {'allowTemplateLiterals': true}],
+      'object-curly-spacing': [1, 'never', {'objectsInObjects': true}],
+      'quote-props': [1, 'consistent'],
+      'dot-notation': 1,
+      'lines-between-class-members': [1, 'always', {'exceptAfterSingleLine': true}],
+      'prefer-const': [1, {
+          'destructuring': 'any',
+          'ignoreReadBeforeAssign': false
+      }]
   }
 }
